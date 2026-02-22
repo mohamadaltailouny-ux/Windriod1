@@ -1,0 +1,5 @@
+-keep class com.example.andrioddock.data.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class com.google.gson.** { *; }
+-dontwarn androidx.compose.**
